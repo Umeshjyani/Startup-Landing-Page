@@ -1,0 +1,268 @@
+body {
+        background-color:#1E1E1E;
+      }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86px; /* set your desired height */
+    background-color:#FCAF02;
+    z-index: 999; /* make sure the navbar appears on top of other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* add a shadow to give the navbar depth */
+  }
+
+  .logo {
+    float: left;
+    padding: 15px;
+  }
+  
+  nav {
+    float: right;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* use flexbox to horizontally align the navigation links */
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 15px;
+  }
+  h2{
+    font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+  }
+
+  .intro-section {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .left-content {
+    flex: 0 0 55%;
+    max-width: 50%;
+    padding: 0 49px;
+    margin-top: 30px;
+    justify-content: right;
+    align-items: right;
+    color: white;
+  }
+  
+  .right-content {
+    flex: 0 0 40%;
+    max-width: 49%;
+    padding-top: 30px;
+    margin-top: 30px;
+    justify-content: right;
+    align-items: right;
+  }
+
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color:#FCAF02;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  }
+
+
+
+  form {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #F9A602;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #F9A602;
+    
+  }
+  .form-groups{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #1E1E1E;
+    border: 2px solid #FCAF02;
+border-radius: 100px;
+  }
+  
+  button[type="submit"] {
+    background-color: #F9A602;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  ::placeholder{
+    color: #F9A602;
+  }
+
+
+
+  .table-style {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #fcaf02;
+  }
+  .border-color {
+    border: 2px solid #fcaf02;
+  }
+  .table-sno {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #fcaf02;
+  }
+  
+  .table-startup-name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #fcaf02;
+  }
+  
+  .table-startup-description {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #fcaf02;
+  }
+  
+  .table-number {
+    width: 42px;
+    height: 34px;
+    color: #fcaf02;
+  }
+  
+  .table-name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #fcaf02;
+  }
+  
+  .table-disc {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #fcaf02;
+  }
+  
+  .table-f-number {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #000000;
+  }
+  
+  .table-f-name {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #000000;
+  }
+  
+  .table-f-dis {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #000000;
+  }
+  
+  th,
+td {
+  border: 2px solid #fcaf02;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #fcaf02;
+}
+
+.table-padding-th {
+  padding: 11px;
+}
